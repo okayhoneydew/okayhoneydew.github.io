@@ -1,0 +1,825 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+    display: block
+}
+
+audio,canvas,progress,video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,kbd,pre,samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+button,input,optgroup,select,textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+button,html input[type=button],input[type=reset],input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox],input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: 700
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,th {
+    padding: 0
+}
+
+.PlaylistPasswordAuth_Title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5;
+    color: #212121;
+    letter-spacing: -.4px
+}
+
+.PlaylistPasswordAuth_Description {
+    font-size: 1.26rem;
+    line-height: 1.2;
+    color: #000
+}
+
+.PlaylistPasswordAuth_Form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    max-width: 14.74rem
+}
+
+.PlaylistPasswordAuth_Input {
+    margin-bottom: 1rem
+}
+
+.TextField {
+    display: flex;
+    background: #f4f5f7;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #d7d7d7
+}
+
+.TextField--disabled {
+    background: #f4f6f8;
+    cursor: not-allowed;
+    font-style: italic
+}
+
+.TextField--focused {
+    background: #fff;
+    box-shadow: inset 0 0 0 2px #94a7af
+}
+
+.TextField--invalid {
+    box-shadow: inset 0 0 0 2px #fc644d;
+    color: #fc644d
+}
+
+.TextField--loading {
+    cursor: progress
+}
+
+.TextField--warning {
+    box-shadow: inset 0 0 0 2px #ffab00;
+    color: #ffab00
+}
+
+.TextField--hidden {
+    opacity: 0;
+    height: 0;
+    overflow: hidden
+}
+
+.TextField-node-right {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    place-content: center;
+    align-items: center;
+    justify-items: center;
+    place-items: center
+}
+
+.TextField-node-right--compact {
+    padding-right: 4px
+}
+
+.TextField-node-right--default {
+    padding-right: 8px
+}
+
+.TextField-input-wrapper {
+    width: 100%
+}
+
+.TextField-input {
+    display: block;
+    background: transparent;
+    border: none;
+    color: #7a869a;
+    font-size: 14px;
+    line-height: 20px;
+    resize: none;
+    width: 100%;
+    height: auto
+}
+
+:root .TextField-input:focus {
+    outline: none;
+    position: relative
+}
+
+.TextField-input::placeholder {
+    color: var(--action-disabled-color)
+}
+
+.TextField-input--default {
+    padding: 10px 8px
+}
+
+.TextField-input--compact {
+    padding: 6px 8px
+}
+
+.TextField-input--disabled {
+    pointer-events: none
+}
+
+.TextField-input--focused {
+    color: #212b36
+}
+
+.TextField-button {
+    padding: 4px
+}
+
+.TextField-icon {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    place-content: center;
+    align-items: center;
+    justify-items: center;
+    place-items: center
+}
+
+:root {
+    --public-page-dark-min-height: 100vh;
+    --showcase-animation-progress: 0;
+    --showcase-background-space: 72.5vh;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x:  ;
+    --tw-pan-y:  ;
+    --tw-pinch-zoom:  ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal:  ;
+    --tw-slashed-zero:  ;
+    --tw-numeric-figure:  ;
+    --tw-numeric-spacing:  ;
+    --tw-numeric-fraction:  ;
+    --tw-ring-inset:  ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur:  ;
+    --tw-brightness:  ;
+    --tw-contrast:  ;
+    --tw-grayscale:  ;
+    --tw-hue-rotate:  ;
+    --tw-invert:  ;
+    --tw-saturate:  ;
+    --tw-sepia:  ;
+    --tw-drop-shadow:  ;
+    --tw-backdrop-blur:  ;
+    --tw-backdrop-brightness:  ;
+    --tw-backdrop-contrast:  ;
+    --tw-backdrop-grayscale:  ;
+    --tw-backdrop-hue-rotate:  ;
+    --tw-backdrop-invert:  ;
+    --tw-backdrop-opacity:  ;
+    --tw-backdrop-saturate:  ;
+    --tw-backdrop-sepia:  ;
+}
+
+.PlaylistShowcaseBackgroundImage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    height: 100vh
+}
+
+.PlaylistShowcaseBackgroundImage--Light {
+    background-color: #f9f9f9
+}
+
+.PlaylistShowcaseBackgroundImage_Image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 115%;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 100%;
+    height: 100vh;
+    transition-duration: .1s;
+    transition-timing-function: linear
+}
+
+.PlaylistShowcaseBackgroundImage--Hide .PlaylistShowcaseBackgroundImage_Image {
+    opacity: 1%;
+    opacity: calc(100% - 100%*var(--showcase-animation-progress)/100);
+    width: 115%;
+    width: calc(115% - 15%*var(--showcase-animation-progress)/100)
+}
+
+.PlaylistShowcaseBackgroundImage_Spacer {
+    height: 72px
+}
+
+.PlaylistShowcaseBackgroundImage_Spacer--WithImage {
+    height: 72.5vh;
+    height: var(--showcase-background-space)
+}
+
+@media (max-width: 600px) {
+    :root {
+        --showcase-background-space:86vw
+    }
+
+    .PlaylistShowcaseBackgroundImage_Spacer {
+        height: 88px
+    }
+
+    .PlaylistShowcaseBackgroundImage,.PlaylistShowcaseBackgroundImage_Image {
+        height: 72.5vh;
+        height: var(--showcase-background-space)
+    }
+
+    .PlaylistShowcaseBackgroundImage {
+        margin-top: var(--public-header-height)
+    }
+}
+
+.public-track-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+    max-width: 100%;
+    width: 100%
+}
+
+.public-track-details .video-js {
+    max-width: 715px;
+    max-height: 403px
+}
+
+@media (max-width: 1200px) {
+    .public-track-details {
+        padding:24px
+    }
+}
+
+@media (min-width: 1201px) {
+    .public-track-details {
+        padding:24px 40px
+    }
+}
+
+@media (max-width: 600px) {
+    .public-track-details {
+        align-items:center;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 60px;
+        padding-top: 130px
+    }
+
+    .public-track-details .video-js {
+        max-width: none;
+        max-height: none
+    }
+}
+
+.public-track-details-2 {
+    align-items: flex-start
+}
+
+.public-track-details-video {
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%
+}
+
+.public-track-details-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 0 1px rgba(9,66,53,.3098),0 1px 1px rgba(9,66,53,.3098);
+    border-radius: 3px;
+    padding: 16px 24px
+}
+
+.public-track-details-logo {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 0
+}
+
+.public-track-details-logo img {
+    width: 80%;
+    height: auto;
+    margin: auto
+}
+
+.public-track-details-actions {
+    margin-left: auto
+}
+
+.public-track-details-artwork {
+    position: relative;
+    flex-shrink: 0
+}
+
+@media (max-width: 600px) {
+    .public-track-details-artwork {
+        margin-bottom:30px;
+        width: calc(100vw - 48px);
+        height: calc(100vw - 48px);
+        position: relative;
+        z-index: 1
+    }
+}
+
+@media (min-width: 601px) {
+    .public-track-details-artwork {
+        margin-right:24px;
+        width: 168px;
+        height: 168px
+    }
+}
+
+@media (min-width: 601px) {
+    .public-track-details-artwork-video {
+        height:222px;
+        width: 431px
+    }
+}
+
+.public-track-details-artwork-blur {
+    background-size: cover;
+    background-position: 50%
+}
+
+@media (max-width: 600px) {
+    .public-track-details-artwork-blur {
+        filter:blur(24px);
+        opacity: .7;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -24px;
+        width: 90%;
+        height: 90%;
+        z-index: -1
+    }
+}
+
+@media (min-width: 601px) {
+    .public-track-details-artwork-blur {
+        display:none
+    }
+}
+
+.public-track-details-content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+    width: 100%
+}
+
+@media (min-width: 601px) {
+    .public-track-details-content {
+        padding:16px 0
+    }
+}
+
+.public-track-details-title {
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 8px
+}
+
+.public-track-details-meta {
+    color: #6b778c;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.public-track-details-progress {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    min-width: 0;
+    overflow: hidden
+}
+
+.public-track-details-progress canvas {
+    max-width: 100%
+}
+
+.public-track-details-time {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.public-track-details-time .WatermarkingStatusFlag {
+    margin-right: 12px
+}
+
+.public-track-details-time--position {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    text-align: right;
+    color: var(--primary-color)
+}
+
+.public-track-details-time--duration {
+    flex: 0 0 auto;
+    margin-left: 10px;
+    color: #637381
+}
+
+.public-track-details-progress-bar {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    height: 40px
+}
+
+.public-track-details__title {
+    font-size: 35px;
+    line-height: 38px;
+    color: #172b4d;
+    margin-bottom: 9px;
+    margin-top: 19px;
+    padding: 0 20px;
+    max-width: 100%
+}
+
+@media (max-width: 600px) {
+    .public-track-details__title {
+        margin-bottom:17px;
+        font-size: 24px;
+        line-height: 31px
+    }
+}
+
+.public-track-details__sub-title {
+    font-size: 12px;
+    line-height: 18px;
+    color: #6b778c;
+    margin-top: 0;
+    margin-bottom: 21px;
+    padding: 0 20px;
+    max-width: 100%
+}
+
+@media (max-width: 600px) {
+    .public-track-details__sub-title {
+        margin-bottom:30px;
+        font-weight: 300
+    }
+}
+
+.public-track-details__video-play {
+    position: relative;
+    margin-bottom: 100px
+}
+
+.public-track-details__video-play .video-js .vjs-big-play-button:focus,.public-track-details__video-play .video-js:hover .vjs-big-play-button {
+    background-color: transparent
+}
+
+.public-track-details__video-play .video-js .vjs-big-play-button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: transparent;
+    background: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgODAgODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00MCA3MkMyMi4zMjcgNzIgOCA1Ny42NzMgOCA0MCA4IDIyLjMyNyAyMi4zMjcgOCA0MCA4YzE3LjY3MyAwIDMyIDE0LjMyNyAzMiAzMiAwIDE3LjY3My0xNC4zMjcgMzItMzIgMzJ6bTAtNGMxNS40NjQgMCAyOC0xMi41MzYgMjgtMjhTNTUuNDY0IDEyIDQwIDEyIDEyIDI0LjUzNiAxMiA0MHMxMi41MzYgMjggMjggMjh6bTE0LTI4TDMyIDU0VjI2bDIyIDE0eiIgZmlsbD0iI2ZmZiIvPjxtYXNrIGlkPSJhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSI4IiB5PSI4IiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNDAgNzJDMjIuMzI3IDcyIDggNTcuNjczIDggNDAgOCAyMi4zMjcgMjIuMzI3IDggNDAgOGMxNy42NzMgMCAzMiAxNC4zMjcgMzIgMzIgMCAxNy42NzMtMTQuMzI3IDMyLTMyIDMyem0wLTRjMTUuNDY0IDAgMjgtMTIuNTM2IDI4LTI4UzU1LjQ2NCAxMiA0MCAxMiAxMiAyNC41MzYgMTIgNDBzMTIuNTM2IDI4IDI4IDI4em0xNC0yOEwzMiA1NFYyNmwyMiAxNHoiIGZpbGw9IiNmZmYiLz48L21hc2s+PC9zdmc+) 50% 50% no-repeat;
+    background-size: 80px 80px;
+    margin: 0;
+    transform: translate(-50%,-50%)
+}
+
+.public-track-details__video-play .video-js .vjs-big-play-button:focus,.public-track-details__video-play .video-js .vjs-big-play-button:hover {
+    background-color: transparent
+}
+
+.public-track-details__video-play .video-js .vjs-big-play-button * {
+    display: none
+}
+
+.public-list-item.public-list-item-track-details {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    background-color: transparent
+}
+
+.public-track-details-watermarking {
+    display: none
+}
+
+@media (max-width: 600px) {
+    .public-track-details-watermarking {
+        display:flex;
+        justify-content: center
+    }
+
+    .public-track-details-watermarking .WatermarkingStatusFlag {
+        margin: 24px auto
+    }
+}
+
+.media-control {
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+.media-control--video {
+    border-radius: 0
+}
+
+.media-control--shadow {
+    box-shadow: 0 24px 30px rgba(66,82,110,.50196),0 24px 30px rgba(66,82,110,.50196)
+}
+
+.media-control:before {
+    content: "";
+    background: rgba(0,0,0,.4);
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition-property: opacity;
+    transition-duration: .1s;
+    transition-timing-function: ease-out
+}
+
+.media-control:hover:before {
+    opacity: 1
+}
+
+.media-control-button {
+    color: #fff;
+    filter: drop-shadow(0 2px 2px rgba(0,0,0,.25));
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 46px;
+    height: 46px;
+    transition-property: opacity,transform;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    will-change: transform
+}
+
+.media-control-button--video {
+    height: 75px;
+    width: 85px
+}
+
+.media-control:active .media-control-button {
+    transform: scale(.8)
+}
+
+.media-control-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition-property: opacity,transform;
+    transition-duration: .1s;
+    transition-timing-function: ease-in
+}
+
+.media-control-icon--hidden {
+    opacity: 0
+}
+
+.Playlist_WatermarkingStatusFlag {
+    display: inline-block;
+    margin-left: 12px
+}
+
+.Playlist_WatermarkingStatusFlag--Mobile {
+    margin: 6px 0 0
+}
+
+.public-content-header__caption {
+    display: flex;
+    align-items: center;
+    margin-top: 12px
+}
+
+/*# */

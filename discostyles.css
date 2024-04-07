@@ -5801,9 +5801,6 @@ b,strong {
     justify-items: stretch;
     place-items: stretch;
     height: auto;
-    padding: 1rem 0 1rem;
-    min-height: var(--public-page-dark-min-height);
-    overflow: hidden;
     background-color: #000
 }
 

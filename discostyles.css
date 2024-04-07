@@ -5474,24 +5474,21 @@ b,strong {
 
 .public-page {
     position: relative;
-    min-height: 100%
 }
 
 @media (max-width: 600px) {
     .public-page {
-        padding-bottom:30px
     }
 }
 
 @media (min-width: 601px) and (max-width:900px) {
     .public-page {
-        padding:24px 24px 64px
     }
 }
 
 @media (min-width: 901px) {
     .public-page {
-        padding:64px
+
     }
 }
 
@@ -6165,7 +6162,7 @@ b,strong {
     }
 
     .public-page--dark {
-        padding-bottom: 14px
+
     }
 
     .public-page--dark .public-content {

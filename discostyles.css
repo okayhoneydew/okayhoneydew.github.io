@@ -1118,6 +1118,7 @@ button:focus {
     border-color: rgba(255, 255, 255, 0.16);
     border-radius: 0.75rem;
     border-width:1px;   
+    border-style: inset
 }
 
 @media (max-width: 600px) {

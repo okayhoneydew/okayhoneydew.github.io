@@ -1129,7 +1129,7 @@ button:focus {
     .public-page--dark .public-content {
         background-color: transparent;
         position: relative;
-        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+        /*box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);*/
         background-color: rgba(30, 41, 59, 0.2);
         border-color: rgba(255, 255, 255, 0.16);
         border-radius: 0.75rem;

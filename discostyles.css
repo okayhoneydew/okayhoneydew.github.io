@@ -1030,7 +1030,7 @@ button:focus {
     justify-items: stretch;
     place-items: stretch;
     height: auto;
-    background-color: #000
+    /*background-color: #000*/
 }
 
 .content-playlist__section__contents {

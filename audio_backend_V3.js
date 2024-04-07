@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         track.howl.on('seek', function() {
             if (!track.howl.playing()) {
-                track.howl.play();
+                handlePlayPause(track, index);
             }
         });
 

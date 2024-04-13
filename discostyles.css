@@ -1111,7 +1111,7 @@ button:focus {
 }
 
 .public-page--dark .public-section {
-    min-width: 90%;
+    min-width: 98%;
     box-shadow: inset 0px 2px 20px 1px rgb(255 255 255 / 5%);    
     /*box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);*/
     background-color: rgba(30, 41, 59, 0.2);

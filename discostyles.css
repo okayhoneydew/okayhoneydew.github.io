@@ -855,7 +855,7 @@ button:focus {
 }
 
 .public-section {
-    max-width: 90vw;
+    max-width: 98vw;
     display: flex;
     flex-direction:inherit;
 

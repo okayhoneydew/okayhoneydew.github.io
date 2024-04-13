@@ -1123,6 +1123,9 @@ button:focus {
 
 @media (max-width: 600px) {
 
+    .public-page--dark .public-section {
+        min-width: 98%;
+    }
     .public-page--dark {
 
     }
